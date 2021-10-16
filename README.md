@@ -1,6 +1,6 @@
 # Location Blog
 
-Location Blog is a MERN App where everyone can share images of the places they visit and also
+Location Blog is a MERN App where everyone can share images of the places they visit and also see other people's places.
 
 ## Overview
 
