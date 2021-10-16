@@ -18,4 +18,4 @@ The Website is a <strong>Single Page Application</strong> providing authenticati
   - [Uuid](https://www.npmjs.com/package/uuid) for assigning unique filenames to the images
   - A total of <strong>8 API endpoints</strong> for CRUD operations
 
-##[View Project!](https://mitul-garg-location-blog.netlify.app)
+<strong>[View Project!](https://mitul-garg-location-blog.netlify.app)</strong>
