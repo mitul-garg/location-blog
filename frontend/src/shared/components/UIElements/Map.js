@@ -2,7 +2,8 @@ import React, { useRef, useEffect } from "react";
 
 // mapbox
 import "mapbox-gl/dist/mapbox-gl.css";
-import mapboxgl from "mapbox-gl";
+/* eslint import/no-webpack-loader-syntax: off */
+import mapboxgl from "!mapbox-gl";
 // mapbox
 
 import "./Map.css";

@@ -12,6 +12,7 @@ export const Users = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
+        console.log(process.env.REACT_APP_BACKEND_URL);
         const responseData = await sendRequest(
           `${process.env.REACT_APP_BACKEND_URL}/api/users`
         );
@@ -30,16 +31,6 @@ export const Users = () => {
         </div>
       )}
       {!isLoading && loadedUsers && <UsersList items={loadedUsers} />};
-      <div className="center" style={{ color: "whitesmoke" }}>
-        <h4>
-          Some features like Auto-detect coordinates, Map Previews and newly
-          added images (which disappear due to Heroku sending the server to
-          sleep after 30 minutes of inactivity) do not work as all those
-          features require credit cards and at present I don't have one but as
-          soon as I find an alternative to this problem, these features will
-          also start working! Meanwhile you can use all other features..
-        </h4>
-      </div>
     </React.Fragment>
   );
 };
