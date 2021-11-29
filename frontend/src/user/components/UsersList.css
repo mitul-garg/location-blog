@@ -8,3 +8,9 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 800px) {
+  .users-list {
+    width: 300px;
+  }
+}

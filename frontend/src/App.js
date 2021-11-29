@@ -11,8 +11,9 @@ import NewPlace from "./places/pages/NewPlace";
 import { UserPlaces } from "./places/pages/UserPlaces";
 import { UpdatePlace } from "./places/pages/UpdatePlace";
 import { Auth } from "./user/pages/Auth";
-import { MainNavigation } from "./shared/components/Navigation/MainNavigation";
+// import { MainNavigation } from "./shared/components/Navigation/MainNavigation";
 import { AuthContext } from "./shared/context/auth-context";
+import { Sidebar } from "./shared/components/Navigation/Sidebar";
 
 let logoutTimer;
 
@@ -117,7 +118,8 @@ const App = () => {
       }}
     >
       <Router>
-        <MainNavigation />
+        {/* <MainNavigation /> */}
+        <Sidebar />
         <main>{routes}</main>
       </Router>
     </AuthContext.Provider>

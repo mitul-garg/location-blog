@@ -4,15 +4,18 @@
   top: 22vh;
   left: 10%;
   width: 80%;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  /* background: white; */
+  background-color: #0c002b;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26); */
+  box-shadow: 20px 20px 70px rgba(0, 0, 0, 0.5);
+  color: white;
   border-radius: 8px;
 }
 
 .modal__header {
   width: 100%;
   padding: 1rem 0.5rem;
-  background: #2a006e;
+  background: #15053f;
   color: white;
 }
 
